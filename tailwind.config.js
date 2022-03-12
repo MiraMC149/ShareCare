@@ -18,6 +18,8 @@ module.exports = {
       primary: '#9A2808',
       secondary: '#208177',
       white: '#ffffff',
+      bluebase: '#ECF2FF',
+      paramount: '#2966DA',
     },
     margin: {
       minus:"-1%",

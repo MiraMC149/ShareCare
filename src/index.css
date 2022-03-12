@@ -9,31 +9,31 @@
 .box1{
     background-color: #208177;
     width: 75%;
-    height: 25%;
+    height: 32%;
     position:absolute;
     margin-left: 7%;
 }
 .box2{
     background-color: #ffffff;
     width: 80%;
-    height: 30%;
+    height: 37%;
     position:absolute;
     z-index: 10;
     margin-top: 2%;
 }
 .box3{
     background-color: #208177;
-    width: 25%;
-    height: 25%;
+    width: 75%;
+    height: 45%;
     position:absolute;
 }
 .box4{
     background-color: #ffffff;
-    width: 30%;
-    height: 30%;
+    width: 80%;
+    height: 50%;
     position:absolute;
     z-index: 10;
     margin-top: 2%;
-    margin-left: 1.4%;
+    margin-left: 2%;
 }
 
