@@ -6,8 +6,7 @@ import WhoAreWe from './../src/components/WhoAreWe/WhoAreWe.jsx';
 const App = () =>{
   return (
     <div className="bg-mainbg">
-      <img src={frontImg} className="w-full h-23" alt={"frontImg"} />
-      
+      <img src={frontImg} className="w-prd h-17 mb-p20" alt={"frontImg"} />
       <WhoAreWe />
     </div>
   );
