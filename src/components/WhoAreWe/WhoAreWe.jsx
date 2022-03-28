@@ -4,7 +4,7 @@ import WhoAreWeBanner from './WhoAreWeBanner'
 
 const WhoAreWe = () => {
   return (
-    <div className='flex '> 
+    <div className='flex mb-16'> 
         <WhoAreWeBanner />
         <div className='static mt-ptop ml-minus'>
         <div className='box1'></div>

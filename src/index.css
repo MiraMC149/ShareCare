@@ -24,16 +24,31 @@
 .box3{
     background-color: #208177;
     width: 75%;
-    height: 45%;
+    height: 55%;
     position:absolute;
 }
 .box4{
     background-color: #ffffff;
     width: 80%;
-    height: 50%;
+    height: 60%;
     position:absolute;
     z-index: 10;
     margin-top: 2%;
     margin-left: 2%;
+}
+.box5{
+    background-color: #208177;
+    width: 45%;
+    height: 35%;
+    position:absolute;
+    margin-left: 7%;
+}
+.box6{
+    background-color: #ffffff;
+    width: 50%;
+    height: 40%;
+    position:absolute;
+    z-index: 10;
+    margin-top: 2%;
 }
 
