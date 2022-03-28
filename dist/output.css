@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -40,7 +40,7 @@ html {
   /* 3 */
   tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Oswald;
   /* 4 */
 }
 
@@ -466,16 +466,147 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.static {
+  position: static;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.absolute {
+  position: absolute;
 }
+
+.relative {
+  position: relative;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.float-right {
+  float: right;
+}
+
+.mb-p20 {
+  margin-bottom: 4%;
+}
+
+.mt-ptop {
+  margin-top: 8%;
+}
+
+.ml-minus {
+  margin-left: -1%;
+}
+
+.mt-p20 {
+  margin-top: 4%;
+}
+
+.ml-p5 {
+  margin-left: 2%;
+}
+
+.ml-pic {
+  margin-left: 4%;
+}
+
+.mt-p5 {
+  margin-top: 2%;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-p26 {
+  height: 26vh;
+}
+
+.w-prd {
+  width: 100%;
+}
+
+.transform {
+  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.bg-mainbg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 202 178 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(154 40 8 / var(--tw-bg-opacity));
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(32 129 119 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
+
+*{
+  background-color: #D0CAB2;
+}
+
+.box1{
+  background-color: #208177;
+  width: 75%;
+  height: 25%;
+  position:absolute;
+  margin-left: 7%;
+}
+
+.box2{
+  background-color: #ffffff;
+  width: 80%;
+  height: 30%;
+  position:absolute;
+  z-index: 10;
+  margin-top: 2%;
+}
+
+.box3{
+  background-color: #208177;
+  width: 25%;
+  height: 25%;
+  position:absolute;
+}
+
+.box4{
+  background-color: #ffffff;
+  width: 30%;
+  height: 30%;
+  position:absolute;
+  z-index: 10;
+  margin-top: 2%;
+  margin-left: 1.4%;
+}
+

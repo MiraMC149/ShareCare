@@ -1,16 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
+*{
+    background-color: #D0CAB2;   
+}
+.box1{
+    background-color: #208177;
+    width: 75%;
+    height: 32%;
+    position:absolute;
+    margin-left: 7%;
+}
+.box2{
+    background-color: #ffffff;
+    width: 80%;
+    height: 37%;
+    position:absolute;
+    z-index: 10;
+    margin-top: 2%;
+}
+.box3{
+    background-color: #208177;
+    width: 75%;
+    height: 55%;
+    position:absolute;
+}
+.box4{
+    background-color: #ffffff;
+    width: 80%;
+    height: 60%;
+    position:absolute;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.box5{
+    background-color: #208177;
+    width: 45%;
+    height: 35%;
+    position:absolute;
+    margin-left: 7%;
+}
+.box6{
+    background-color: #ffffff;
+    width: 50%;
+    height: 40%;
+    position:absolute;
+    z-index: 10;
+    margin-top: 2%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
