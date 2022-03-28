@@ -5,7 +5,7 @@ import SignUp from './SignUp'
 
 const Newsletter = () => {
   return (
-    <div className='flex -mb-4 '> 
+    <div className='flex mb-64 '> 
         <Subscribe />
         <div className='mt-ptop ml-minus'>
         <div className='box3'></div>

@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className='absolute inset-x-0 bottom-0 '>
+    <footer className='relative mt-64 w-full  '>
       <div className='text-center mr-10'>
         <div>
         <img src={Logo} className="h-20 float-left ml-3 " alt={"Logo"} /> 
