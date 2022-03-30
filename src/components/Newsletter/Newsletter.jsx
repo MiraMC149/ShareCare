@@ -18,7 +18,7 @@ const Newsletter = () => {
           <input type='password' className='bg-bluebase w-4/6 ml-12 h-8'></input>
           <p className='text-paramount bg-white ml-12 text-lg mt-2'>Upload a photo avatar</p>
           <SignUp />
-          <p className='bg-white ml-12 text-lg'>Already a user? 
+          <p className='bg-white ml-12 text-lg -mt-5'>Already a user? 
             <span className='text-secondary bg-white text-lg ml-2'>
               <a className='bg-white' href="">Log in</a>
             </span>
