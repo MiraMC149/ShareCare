@@ -1,5 +1,5 @@
 import React from 'react'
-import {signInGoogle} from '../../fireba'
+import {signInGoogle} from '../../firebase.js'
 
 function SignUp() {
   return (
