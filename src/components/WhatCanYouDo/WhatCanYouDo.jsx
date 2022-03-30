@@ -1,7 +1,7 @@
 import React from 'react'
 import BgBanner from '../WhoAreWe/BgBanner.jsx'
 import logoLeft from '../../Images/donation.jpg'
-import {signInGoogle} from '../../fireba'
+import {signInGoogle} from '../../firebase.js'
 
 function WhatCanYouDo() {
   return (
